@@ -12,7 +12,14 @@
             <label class="titulo">Determinar distrito optimo</label>            
             <label>municipio</label>
             <label>departamento</label>
-
+            <!--borrador-->
+            <script>
+            var model = null
+            console.log("cargando modelo");
+            model = await tf.loadLayersModel("modelo y glosario/model.json");
+            console.log("modelo cargado");
+            </script>
+            <!---->
             <label>ley</label>
             <select id="ley">
                 <script>
