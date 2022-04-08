@@ -15,10 +15,11 @@
             <!--borrador-->
             <script>
             var model = null
+            (async =>{
             console.log("cargando modelo");
             model = await tf.loadLayersModel("modelo y glosario/model.json");
             console.log("modelo cargado");
-            </script>
+            });
             <!---->
             <label>ley</label>
             <select id="ley">
